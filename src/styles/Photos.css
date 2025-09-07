@@ -1,0 +1,43 @@
+/* Photos.css */
+.photos {
+  background: #c0c0c0;
+  border-radius: 8px;
+  margin-top: 10px;
+  padding: 10px;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+}
+
+.photo-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 4px;
+}
+
+.photo-grid img {
+  width: 130px;
+  height:150px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.photos-header {
+  display: flex;
+  align-items: center;
+  gap: 245px; /* space between Photos and See all */
+  margin-bottom: 10px;
+}
+
+.photos-title {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.see-all {
+  font-size: 13px;
+  color: #1877f2;
+  text-decoration: none;
+}
+
+.see-all:hover {
+  text-decoration: underline;
+}
